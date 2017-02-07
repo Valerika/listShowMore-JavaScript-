@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="src/style.css">
+  <script src="https://use.fontawesome.com/466ae67cb3.js"></script>
+</head>
+
+<body>
+    <div class="page" id="blockNews">
+      <div class="pageHeader">
+        <label for="onoffswitch" class="text-before-onoffswitch">Show more articles using the:</label>
+        <div class="switch-form">
+          <label for="onoffswitch" class="onoffswitch-text">scroll</label>
+          <div class="onoffswitch">
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="toggleMethod" checked>
+            <label class="onoffswitch-label" for="toggleMethod">
+              <span class="onoffswitch-inner"></span>
+              <span class="onoffswitch-switch"></span>
+            </label>
+          </div>
+          <label for="onoffswitch" class="onoffswitch-text">button</label>
+        </div>
+      </div>
+      <div id="news" class="pageContent"></div>
+      <div class="pageFooter">
+        <a href="javascript:void(0)" class="goTop" id="toTop"><i class="fa fa-2x fa-chevron-up"></i></a>
+        <input type="button" value="Read More..." id="readMore" class="moreInfo" />
+      </div>
+    </div>
+  <script src="src/script.js"></script>
+</body>
+
+</html>
